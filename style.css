@@ -1,0 +1,78 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.lfwf-logo {
+	border: 2px solid #6278df;
+	height: 32px;
+	width: 31px;
+	display: inline-block;
+	line-height: 26px;
+    text-align: center;
+    border-radius: 25%;
+}
+.lfwf-logo i{
+    font-size: 15px;
+    color: #08d1b6;
+}
+.slider h5{
+    font-weight: 200;
+}
+
+.slider{
+    background: url(./img/04.jpg) rgba(0,0,0,0.6) no-repeat center center;
+    background-size: cover;
+    padding: 200px 0;
+    background-blend-mode: overlay;
+}
+img{
+    max-width: 100%;
+}
+.feature-item{
+    height: 200px;
+    box-shadow: 4px 5px 30px 0 rgba(64,87,191 ,0.1);
+}
+.left-img-sec{
+    width: 40%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.left-test-sec{
+    width: 60%;
+    padding: 15px;
+}
+
+.left-img-sec img{
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -60px;
+}
+
+
+.lorem{
+    font-size: 25px;
+
+}
+
+
+.protfoio-section a{
+    position: relative;
+    display: block;
+}
+.protfoio-section a::after{
+    content: "";
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background:rgba(98, 120, 223, .6) ;
+    opacity:0 ;
+    visibility: hidden;
+    transition: .4s;
+}
+.protfoio-section:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
